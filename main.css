@@ -2,11 +2,24 @@ body {
   font-family: 'League Script', cursive;
   font-size: 25px;
   margin: 30% 30%;
-  transition: background-color .4s ease;
+  /*transition: background-color .4s ease;*/
   background-color: ;
   color: magenta;
+  padding: 0;
+}
+
+.container {
+  background-color: #030333;
+  width: 350px;
+  height: 125px;
+  text-align: center;
+  border-radius: 25px;
+  padding-top: 10px;
 }
 
 .clock {
+  font-size: 75px;
+}
+.clock2 {
   font-size: 75px;
 }

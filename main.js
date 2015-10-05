@@ -1,3 +1,5 @@
+// (function(){
+
 // $('.myList li').addClass('item');
 
 // var para = $('.text');
@@ -33,11 +35,13 @@ thisHour = (thisHour < 10 ? '0' : '') + thisHour;
 
 
 var thisTimeString = '#'+thisHour+thisMinute+thisSecond;
+var thisTimeString2 = thisHour+':'+thisMinute+':'+thisSecond;
 var colorName = thisTimeString;
-var randomColor = Math.floor(Math.random()*16777215).toString(16);
+var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
 
 $('.clock').html(thisTimeString);
-$('body').css('background-color', colorName);
+$('body').css('background-color', randomColor);
+$('.clock2').html(thisTimeString2);
 }
 
 $(document).ready(function(){
@@ -54,3 +58,5 @@ $(document).ready(function(){
 //   setInterval('backColor()',1000)
 // })
 
+
+// })();
