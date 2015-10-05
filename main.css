@@ -1,0 +1,11 @@
+body {
+  font-family: 'League Script', cursive;
+  font-size: 25px;
+  margin: 30% 30%;
+  background-color: #272822;
+  color: #E6E6E6;
+}
+
+.clock {
+  font-size: 75px;
+}
